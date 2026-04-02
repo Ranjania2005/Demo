@@ -1,0 +1,6 @@
+help
+list
+search-number AI202
+add SG100 SpiceJet DEL GOI 2026-04-05 Scheduled
+list
+exit

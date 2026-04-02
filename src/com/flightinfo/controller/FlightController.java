@@ -28,7 +28,7 @@ public class FlightController {
             }
 
             String[] parts = input.split("\\s+");
-            String command = parts[0].replace("\uFEFF", "").toLowerCase();
+            String command = parts[0].toLowerCase();
 
             try {
                 switch (command) {

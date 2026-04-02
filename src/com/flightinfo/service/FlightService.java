@@ -40,6 +40,9 @@ public class FlightService {
         flights.add(new Flight("DE0309", "IndiGo", "PON", "PAN", "2026-04-02", "Active", null));
         flights.add(new Flight("SK0609", "Vistara", "PAN", "PON", "2026-04-03", "Scheduled", null));
         flights.add(new Flight("AC1074", "Mumbai", "PAN","KAR","2026-04-04","Scheduled",null));
+        flights.add(new Flight("HL1124", "Delhi", "KOM","THU","2026-04-03","Scheduled",null));
+        
+
         repository.addAll(flights);
     }
 }
